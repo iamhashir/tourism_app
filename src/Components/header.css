@@ -1,0 +1,26 @@
+.mainHeader{
+  color:white;
+  background:black;
+}
+*{
+  margin:0;
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+.Header{
+  height:13vh;
+}
+.flex{
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+}
+.nav{
+  display:flex;
+  justify-content:space-between;
+/*   background:white; */
+  width:30%;
+  
+}
