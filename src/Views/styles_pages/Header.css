@@ -1,0 +1,123 @@
+#menu__toggle {
+    opacity: 0;
+}
+
+#menu__toggle:checked+.menu__btn>span {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked+.menu__btn>span::before {
+    top: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+#menu__toggle:checked+.menu__btn>span::after {
+    top: 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked~.menu__box {
+    left: 0 !important;
+}
+
+.menu__btn {
+    position: fixed;
+    top: 2.8rem;
+    left: 60px;
+    width: 46px;
+    height: 156px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    -webkit-transition-duration: .25s;
+    transition-duration: .25s;
+}
+
+.menu__btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn>span::after {
+    content: '';
+    top: 8px;
+}
+
+.hamburger-menu {
+    display: flex;
+    height: 0vh;
+}
+
+.menu__box {
+    display: block;
+    position: fixed;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #b9b9b957;
+    -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    -webkit-transition-duration: .25s;
+    transition-duration: .49s;
+}
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    -webkit-transition-duration: .25s;
+    transition-duration: .25s;
+}
+
+.menu__item:hover {
+    background-color: #000000;
+    color: white;
+}
+
+
+.mainHeader {
+    color: white;
+    background-size: cover;
+    background: rgba(194, 194, 194, 0.428);
+    color: black;
+    background-repeat: no-repeat;
+    background-position: 10px 10px 20px;
+    position: fixed;
+    opacity: 1;
+    -webkit-box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.539);
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.539);
+    width: 100%;
+    z-index: 100;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.Header {
+    height: 13vh;
+}

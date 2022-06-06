@@ -1,0 +1,65 @@
+footer {
+    width: 100%;
+    background: #111;
+}
+footer .content {
+    /* margin-left: 245px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: pink; */
+}
+
+footer .content p,
+a {
+    color: #fff;
+    font-size:1.2rem;
+}
+
+footer .content .box {
+    /* width: 33%; */
+    transition: all 0.4s ease;
+}
+
+footer .content .topic {
+    font-size: 22px;
+    text-align: left;
+    font-weight: 900;
+    color: #fff;
+    font-size: 35px;
+}
+
+.bottomimg {
+    /* height: auto; */
+    padding-top:0;
+}
+
+.Emarat {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+    color: red;
+}
+
+footer .content p {
+    text-align: justify;
+    width: 30vw;
+}
+
+
+footer .content .middle a {
+    line-height: 32px;
+}
+.middle{
+    padding: 1.3em;
+}
+.topic{
+    /* background: red; */
+    height: 10vh;
+}

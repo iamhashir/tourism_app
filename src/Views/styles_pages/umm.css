@@ -1,0 +1,11 @@
+.hero-banner8{
+    position: relative;
+ 
+    background: url("../img/rome.jpg") no-repeat center;
+
+    background-size: cover;
+
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}

@@ -1,0 +1,10 @@
+ 
+ .hero-banner1 {
+   position: relative;
+  
+   background: url("../img/emirates-palace-01.jpg") no-repeat center;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   overflow: hidden;
+ } 

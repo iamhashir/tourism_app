@@ -1,8 +1,24 @@
 .MapWrapper {
     height: 100%;
-    width: 100%;
+    width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    /* background-image: url("https://images.unsplash.com/photo-1513205018065-e8cfb0f02c3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"); */
+    background-size: cover;
+    background-position: 0px -65px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.dropbox.com/s/z5jmwqyn8jin1a7/white-tailed-eagle-2015098.jpg?raw=1");
+    
+}
+.mapHover{
+    transition: width .3s ease-out;
+    width: 55%;
+
+}
+.mapHover:hover{
+    /* background: aqua; */
+    /* display:none; */
+    width: 100%;
+    transition: width .5s ease-in;
+    /* height: 100vh; */
 }

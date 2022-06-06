@@ -4,9 +4,9 @@ import Slideshow from "./bodyComp/bgVideo";
 import Cards from "./bodyComp/Cards";
 import Facts from "./bodyComp/Facts";
 import Maps from "./bodyComp/Maps";
-import Footer from "./bodyComp/Footer";
+import Footer from "../Views/Pages/Footer";
 import Feedback from "./bodyComp/Feedback";
-
+import Chatbot from "./bodyComp/Chatbot"
 function Body() {
   const myStyle = {
     backgroundImage:
@@ -22,9 +22,8 @@ function Body() {
       </div>
         <Facts />
         <Maps/>
-        <Feedback>
-          hashir
-        </Feedback>
+        <Feedback/>
+        <Chatbot/> 
         <Footer/>
     </main>
   );

@@ -1,0 +1,8 @@
+
+.hero-banner {
+    position: relative;
+    background: url("../img/aaaa.jpeg") no-repeat center;
+    background-size: cover;
+    height: calc(100vh - -50vh);
+    overflow: hidden;
+}

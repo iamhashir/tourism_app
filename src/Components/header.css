@@ -1,4 +1,4 @@
-.mainHeader {
+/* .mainHeader {
   color: white;
   background-size: cover;
   background: rgba(194, 194, 194, 0.428);
@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-position: 10px 10px 20px;
   position: sticky;
+  top:0;
   opacity: 1;
   box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.539);
   width: 100%;
@@ -36,4 +37,4 @@ a {
   justify-content: space-between;
   width: 50%;
 
-}
+} */

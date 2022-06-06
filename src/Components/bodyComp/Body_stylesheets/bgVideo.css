@@ -2,11 +2,7 @@
   color: white;
 }
 
-video {
-  height: 120vh;
-  margin-top: -5.85rem;
-  /* width: 110%; */
-}
+ 
 .each-slide{
   width: 100%;
   height: 100%;
@@ -14,4 +10,9 @@ video {
 #imag{
   width: 10vh;
   height: 10vh;
+}
+.slide-container
+{
+  position: absolute;
+  top: -140px;
 }

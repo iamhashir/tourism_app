@@ -1,0 +1,11 @@
+.hero-banner4 {
+    position: relative;
+ 
+    background: url("../img/manamaajman.jpg") no-repeat center;
+
+    background-size: cover;
+
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}

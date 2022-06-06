@@ -1,0 +1,15 @@
+ 
+
+ 
+ .hero-banner2 {
+   position: relative;
+ 
+   background: url("../img/atlantis.jpeg") no-repeat center;
+ 
+   background-size: cover;
+
+   height: 100vh;
+   width: 100vw;
+   overflow: hidden;
+ }
+ 

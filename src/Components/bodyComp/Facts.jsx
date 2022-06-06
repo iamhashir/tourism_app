@@ -16,22 +16,33 @@ function Facts() {
   };
   return (
     <div className="facts">
-        <div className="fact_content" style={myStyle1}>
-          <h1>Did You know</h1>
+      <div className="fact_content" style={myStyle1}>
+        <div id="fact_info">
+          <h1>Did You know !!!</h1>
           <h3>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sunt
-            ab commodi et tenetur corporis neque quis dolore iste! Modi
-            cupiditate hic amet dolor animi. Amet atque delectus suscipit
-            cupiditate! Optio maiores accusantium nulla modi nostrum, fugiat
-            maxime ullam sed neque asperiores officiis sequi magnam quae placeat
-            ipsam repellendus at excepturi, reiciendis suscipit quaerat id fugit
-            dicta! Sunt, quia nihil! Labore, minus, mollitia nobis fugit maxime
-            eum reprehenderit omnis dolorem exercitationem facilis dolor
-            voluptas corrupti eligendi earum temporibus, distinctio quos! Natus
-            iste numquam nulla voluptates non obcaecati nostrum iusto eveniet!
+            It holds some pretty unusual world records Of the many, many
+            Guinness World Records the UAE holds there are well-known feats such
+            as the Burj Khalifa, the world’s tallest tower and largest picture
+            frame for Dubai Frame, but there are also some more obscure ones.
+            For example, the UAE holds the record for the most dominoes toppled
+            in a circle field (it was 89,995 in case you were curious), the
+            heaviest vehicle pulled by hair and the fastest 10 metres completed
+            by a horse on its hind legs
           </h3>
+        </div>
       </div>
-      <div style={myStyle} className="side_image"></div>
+      <div style={myStyle} className="side_image">
+        <div  className="fact_info2">
+          {/* <h1>Did You know !!!</h1> */}
+          <h3>
+            The UAE population is made up of over 200 nationalities In a
+            population of 9.89 million, more than 80% of UAE residents are
+            expats, originating from more than 200 countries around the world.
+            Citizens from India, Pakistan, Bangladesh and the Philippines make
+            up the largest portion of expats in the UAE.
+          </h3>
+        </div>
+      </div>
     </div>
   );
 }

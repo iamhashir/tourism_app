@@ -4,12 +4,44 @@
     display: inline-block;
     width: 50%;
     height: 100vh;
- background: rgb(199, 156, 215);
- background: linear-gradient(90deg, rgba(199, 156, 215, 1) 2%, rgba(85, 155, 177, 1) 39%, rgba(255, 164, 87, 1) 71%, rgba(240, 236, 237, 1) 98%);
-  color: aliceblue;
-  box-shadow: 5px 10px 15px 15px rgba(187, 187, 187, 0.212);
+    background: rgb(199, 156, 215);
+    background: linear-gradient(90deg, rgba(199, 156, 215, 1) 2%, rgba(85, 155, 177, 1) 39%, rgba(255, 164, 87, 1) 71%, rgba(240, 236, 237, 1) 98%);
+    color: aliceblue;
+    box-shadow: 5px 1px 6px 1px rgba(88, 88, 88, 0.597);
+    /* box-shadow:10px 0px 10px 10px grey; */
 }
-
+#fact_info>h1{
+    padding: 10px;
+    font-size: 4.5rem;
+}
+#fact_info>h3{
+    padding: 50px;
+    font-size: 1.6rem;
+    color: black;
+    background: #01c8c542;
+    border-radius:162px;
+}
+#fact_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height:100%;
+}
+.fact_info2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height:100%;
+    
+}
+.fact_info2>h3{
+    padding: 50px;
+    font-size: 1.7rem;
+    color: white;
+    background: #01c8c542;
+    font-family: sans-serif;
+    border-radius:162px;
+}
 .side_image {
     width: 50%;
     float: right;
