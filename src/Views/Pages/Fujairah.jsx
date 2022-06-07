@@ -6,10 +6,13 @@ import fj3 from "../img/manamaajman.jpg";
 import fj4 from "../img/fjheritage.jpg";
 import fj5 from "../img/Adventure Park Fj.jpg";
 import fj6 from "../img/Cornichekalba.jpg";
+import fujVid from "../videos/pexels-paul-ramos-5992159.mp4";
 
 import Header from "./Header";
 import Footer from "./Footer";
 import "../styles_pages/Fujairah.css";
+import VideoCon from "./VideoCon"
+import ButtonMain from "./ButtonMain";
 
 function Fujairah() {
   return (
@@ -206,6 +209,8 @@ function Fujairah() {
             language-code="en"
           />
         </div>
+        <VideoCon video={fujVid} />
+        <ButtonMain downloadLink="https://www.dropbox.com/sh/zx8paep9bta8d14/AAB_wOHJ_jGMP0P8k2fgB1oWa?dl=1" />
         <Footer />
       </div>
     </div>

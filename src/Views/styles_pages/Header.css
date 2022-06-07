@@ -67,10 +67,10 @@
     width: 300px;
     height: 100%;
     margin: 0;
-    padding: 80px 0;
+    padding: 25px 0;
     list-style: none;
-    background-color: #b9b9b957;
-    -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    background-color: #d6d6d6a0;
+    -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.532);
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
     -webkit-transition-duration: .25s;
     transition-duration: .49s;
@@ -86,6 +86,8 @@
     text-decoration: none;
     -webkit-transition-duration: .25s;
     transition-duration: .25s;
+    margin-top:.8rem;
+    background: rgba(0, 80, 96, 0.368);
 }
 
 .menu__item:hover {
@@ -93,7 +95,13 @@
     color: white;
 }
 
-
+.abc{
+    background: rgba(0, 212, 180, 0.457);
+}
+.abc:hover{
+    background: rgba(255, 255, 255, 0.381);
+    color: black;
+}
 .mainHeader {
     color: white;
     background-size: cover;

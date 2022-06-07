@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./Body_stylesheets/chatbot.css"
 function Chatbot() {
   return (
     <div>
@@ -8,6 +8,7 @@ function Chatbot() {
         chat-title="TraverseFeedback"
         agent-id="0bd5f576-da86-48b0-83fb-f101a90eafd8"
         language-code="en"
+
       />
     </div>
   );

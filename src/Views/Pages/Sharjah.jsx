@@ -2,7 +2,7 @@ import React from "react";
 
 import Header from "./Header";
 import Footer from "./Footer";
-
+import shjVid from "../videos/pexels-mikhail-nilov-8396962.mp4"
 import Sh1 from "../img/sh1.jpg";
 import Sh2 from "../img/sh2.jpg";
 import Sh3 from "../img/sh3.jpg";
@@ -12,6 +12,8 @@ import Sh6 from "../img/sh6.jpg";
 
 import "../styles_pages/common.css";
 import "../styles_pages/Sharjah.css";
+import VideoCon from "./VideoCon";
+import ButtonMain from "./ButtonMain";
 
 function Sharjah() {
   return (
@@ -203,6 +205,8 @@ function Sharjah() {
           agent-id="0bd5f576-da86-48b0-83fb-f101a90eafd8"
           language-code="en"
         ></df-messenger>
+        <VideoCon video={shjVid} />
+        <ButtonMain downloadLink="https://www.dropbox.com/sh/b41lvmmuum0g0fv/AADRxGfECOwEQfoARBZexUB4a?dl=1" />
         <Footer />
       </div>
     </div>

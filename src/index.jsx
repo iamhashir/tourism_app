@@ -18,7 +18,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/App" element={<App />}></Route>
+      <Route path="/" element={<App />}></Route>
       <Route path="/Auh" element={<AbuDhabi />}></Route>
       <Route path="/Dxb" element={<Dubai />}></Route>
       <Route path="/Shj" element={<Sharjah />}></Route>

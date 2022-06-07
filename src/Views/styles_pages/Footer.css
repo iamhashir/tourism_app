@@ -1,8 +1,8 @@
-footer {
+.footer {
     width: 100%;
     background: #111;
 }
-footer .content {
+.footer .content {
     /* margin-left: 245px; */
     display: flex;
     flex-wrap: wrap;
@@ -15,18 +15,18 @@ footer .content {
     /* background: pink; */
 }
 
-footer .content p,
+.footer .content p,
 a {
     color: #fff;
     font-size:1.2rem;
 }
 
-footer .content .box {
+.footer .content .box {
     /* width: 33%; */
     transition: all 0.4s ease;
 }
 
-footer .content .topic {
+.footer .content .topic {
     font-size: 22px;
     text-align: left;
     font-weight: 900;
@@ -47,13 +47,13 @@ footer .content .topic {
     color: red;
 }
 
-footer .content p {
+.footer .content p {
     text-align: justify;
     width: 30vw;
 }
 
 
-footer .content .middle a {
+.footer .content .middle a {
     line-height: 32px;
 }
 .middle{
@@ -62,4 +62,11 @@ footer .content .middle a {
 .topic{
     /* background: red; */
     height: 10vh;
+}
+
+.middle>div>a:hover{
+    color: orange;
+}
+.middle>div:hover{
+    color: orange;
 }

@@ -5,10 +5,13 @@ import Aj3 from "../img/manamaajman.jpg";
 import Aj4 from "../img/Ajmanmuseum.jpg";
 import Aj5 from "../img/Ajmanmarina.jpg";
 import Aj6 from "../img/jarah.jpg";
-
+import Ajvideo from "../videos/pexels-tima-miroshnichenko-7169446.mp4";
 import Header from "./Header";
+import VideoCon from "./VideoCon";
+
 import Footer from "./Footer";
 import "../styles_pages/Ajman.css";
+import ButtonMain from "./ButtonMain";
 function Ajman() {
   return (
     <div>
@@ -202,6 +205,8 @@ function Ajman() {
           agent-id="0bd5f576-da86-48b0-83fb-f101a90eafd8"
           language-code="en"
         />
+        <VideoCon video={Ajvideo} />
+        <ButtonMain downloadLink="https://www.dropbox.com/sh/nte0e0qifusuomg/AAB6ytbUZ0dXMZ-CjClJ2Doca?dl=1" />
         <Footer />
       </div>
     </div>

@@ -1,7 +1,11 @@
 import React from "react";
-// import "../styles_pages/Abudhabi.css";
+import "../styles_pages/Abudhabi.css";
+import VideoCon from './VideoCon.jsx'
 import "../styles_pages/common.css";
 
+
+
+import AuhVideo from "../videos/production ID_5087985.mp4"
 import Header from "./Header";
 import Footer from "./Footer";
 import Traverse from "../img/traverseff.png";
@@ -12,12 +16,14 @@ import WarnerBros from "../img/WARNER-BROS.-PLAZA.jpg";
 import YasWaterworld from "../img/Yas-Waterworld-Abu-Dhabi.jpg";
 import FerrariWorld from "../img/FerrariWorldAbuDhabi.jpg";
 
+import ButtonMain from "./ButtonMain"
+
 function Abu_dhabi() {
   return (
     <div>
       <Header />
       {/*---------------------------- CONTENT ----------------------------*/}
-      <div className="main_head" style={{}}>
+      <div className="main_head">
         <div className="hero-banner1">
           <div className="hero-content">
             <h1>ABU DHABI</h1>
@@ -184,16 +190,15 @@ function Abu_dhabi() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-
-                  <h1 className="card-header">Warner Bros World</h1>
-                  <p className="card-text">
-                    Warner Bros. World Abu Dhabi is an indoor theme park in Abu
-                    Dhabi, United Arab Emirates, owned and developed by Miral
-                    Asset Management.
-                  </p>
-                  <button className="card-btn">
-                    Visit <span>→</span>
-                  </button>
+                    <h1 className="card-header">Warner Bros World</h1>
+                    <p className="card-text">
+                      Warner Bros. World Abu Dhabi is an indoor theme park in
+                      Abu Dhabi, United Arab Emirates, owned and developed by
+                      Miral Asset Management.
+                    </p>
+                    <button className="card-btn">
+                      Visit <span>→</span>
+                    </button>
                   </a>
                 </div>
               </div>
@@ -205,6 +210,8 @@ function Abu_dhabi() {
             agent-id="0bd5f576-da86-48b0-83fb-f101a90eafd8"
             language-code="en"
           />
+          <VideoCon video={AuhVideo} />
+          <ButtonMain downloadLink="https://www.dropbox.com/sh/21i3wqte7tut0jt/AACe1KlYiEN2CcT8Q_pAshZMa?dl=1" />
           <Footer />
         </div>
       </div>

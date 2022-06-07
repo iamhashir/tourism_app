@@ -6,7 +6,7 @@ import Traverse from "../img/traverseff.png";
 function footer() {
   return (
     <div>
-      <footer>
+      <div className="footer">
         <div className="content">
           <div className="left box">
             <div className="upper">
@@ -14,14 +14,20 @@ function footer() {
               <p>
                 Traverse is a virtual tourist experience that attempts to enable
                 people learn about the history and culture of the United Arab
-                Emirates and explore all tourist spots available through all seven emirates
+                Emirates and explore all tourist spots available through all
+                seven emirates
               </p>
             </div>
           </div>
           <div className="right box">
-            <img className="bottomimg" style={{paddingTop:0}} src={ Traverse } alt="" />
+            <img
+              className="bottomimg"
+              style={{ paddingTop: 0 }}
+              src={Traverse}
+              alt=""
+            />
           </div>
-          <div className="middle box">
+          <div className="middle box" style={{textAlign:"center"}}>
             <div className="Emarat">Emirates</div>
             <div>
               <a href="/dxb"> Dubai </a>
@@ -46,7 +52,7 @@ function footer() {
             </div>
           </div>
         </div>
-      </footer>
+      </div>
     </div>
   );
 }

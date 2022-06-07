@@ -3,6 +3,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Traverse from "../img/traverseff.png";
 
+import DubaiVide from "../videos/WhatsApp Video 2022-06-07 at 2.21.01 AM.mp4"
+import ButtonMain from "./ButtonMain"
 import LoveLake from "../img/lovelake.jpg";
 import BurjKhalifah from "../img/Khalifah.jpg";
 import BurjArab from "../img/Burjarab.jpg";
@@ -13,6 +15,7 @@ import Atlantis from "../img/atlantis.jpeg";
 
 import "../styles_pages/dubai.css";
 import "../styles_pages/common.css";
+import VideoCon from "./VideoCon";
 
 function Dubai() {
   return (
@@ -212,6 +215,8 @@ https://www.google.com/maps/place/Love+Lake+-+Dubai/@24.8352147,55.3914268,14.31
           language-code="en"
         />
       </div>
+      <VideoCon video={DubaiVide} />
+      <ButtonMain downloadLink="https://www.dropbox.com/sh/2thneg0wxc8tltf/AACai9OjpkXSca5smfmQDzi4a?dl=1" />
       <Footer />
     </div>
   );

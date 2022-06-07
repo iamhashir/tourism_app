@@ -6,11 +6,14 @@ import As4 from "../img/CAmelrace.jpg";
 import As5 from "../img/Dreamland-Aqua-Park.jpg";
 import As6 from "../img/Barracuda.jpg";
 
+import UmVid from "../videos/3141048014.mp4"
 import Header from "./Header";
 import Footer from "./Footer";
 
 import "../styles_pages/common.css";
 import "../styles_pages/umm.css";
+import VideoCon from "./VideoCon"
+import ButtonMain from "./ButtonMain";
 
 function UmAlQuwain() {
   return (
@@ -196,6 +199,8 @@ function UmAlQuwain() {
             </div>
           </div>
         </div>
+        <VideoCon video={UmVid} />
+        <ButtonMain downloadLink="https://www.dropbox.com/sh/e7g4h555i00g6qq/AAAg2N7aR132xaqWDuqwonaQa?dl=1" />
         <Footer />
       </div>
     </div>

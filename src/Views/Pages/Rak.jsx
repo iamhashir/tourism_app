@@ -6,11 +6,13 @@ import As3 from "../img/AS2.jpg"
 import As4 from "../img/AS3.jpg"
 import As5 from "../img/AS4.jpg"
 import As6 from "../img/AS5.jpg"
-
+import RakVid from "../videos/HeroV3_compressed.mp4"
 import "../styles_pages/rak.css"
 
 import Header from "./Header";
 import Footer from "./Footer";
+import VideoCon from "./VideoCon";
+import ButtonMain from "./ButtonMain";
 
 function Rak() {
   return (
@@ -176,6 +178,8 @@ function Rak() {
           agent-id="0bd5f576-da86-48b0-83fb-f101a90eafd8"
           language-code="en"
         />
+        <VideoCon video={RakVid} />
+        <ButtonMain downloadLink="https://www.dropbox.com/sh/zx8paep9bta8d14/AAB_wOHJ_jGMP0P8k2fgB1oWa?dl=1" />
         <Footer />
       </div>
     </div>
